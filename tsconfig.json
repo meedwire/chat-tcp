@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@screens/*": ["./src/screens/*"],
+      "@client": ["./src/client"],
+      "@server": ["./src/server"],
+      "@store": ["./src/store"],
+      "@types": ["./src/commonTypes"],
+      "@entities": ["./src/entities"],
+      "@components": ["./src/components"]
+    }
+  }
+}
